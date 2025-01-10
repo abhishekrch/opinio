@@ -1,3 +1,4 @@
+import MyWidget from "@/components/demo-widget";
 import FeaturesSection from "./features-section";
 import Hero from "./hero";
 import PricingSection from "./pricing-section";
@@ -8,6 +9,7 @@ const LandingPage = () => {
             <Hero />
             <FeaturesSection />
             <PricingSection />
+            <MyWidget />
         </div>
     )
 }

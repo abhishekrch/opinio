@@ -22,7 +22,7 @@ const page = ({ params }: {
         <br />
         {`<script src="${process.env.WIDGET_URL}widget.umd.js"></script>`}
       </code>
-      <CopyBtn text={`<my-widget project="${params.projectId}"></my-widget>\n
+      <CopyBtn text={`<my-widget project-id="${params.projectId}"></my-widget>\n
         <script src="${process.env.WIDGET_URL}widget.umd.js"></script>`} />
 
       </div>
